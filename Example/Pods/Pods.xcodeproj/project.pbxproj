@@ -15,6 +15,10 @@
 		3F569ED00B37615F8AED7B0CF41FF82C /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC9D6859012C9EF94C834711E360977 /* PopupDialogDefaultView.swift */; };
 		44BD2A39D4FB3D692746489C436035B1 /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740D8451E6FD4AD8F0F88D24699D641 /* PopupDialogOverlayView.swift */; };
 		471900F2813E7F867BBC2193F8AA365E /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8B6CBA02AD6FA9A43EB03C77864AE0 /* PopupDialog.swift */; };
+		4911BB2A1D59B32F00BDCBDA /* TZSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911BB221D59B17200BDCBDA /* TZSpacerView.swift */; };
+		4911BB2B1D59B32F00BDCBDA /* TZStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911BB231D59B17200BDCBDA /* TZStackView.swift */; };
+		4911BB2C1D59B32F00BDCBDA /* TZStackViewAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911BB241D59B17200BDCBDA /* TZStackViewAlignment.swift */; };
+		4911BB2D1D59B32F00BDCBDA /* TZStackViewDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911BB251D59B17200BDCBDA /* TZStackViewDistribution.swift */; };
 		5B9A968F305D1F9AA3B20F00F3A999D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		5E46459E1D98B0814BA7A545B14B1067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		79F9E2DA3E21E667E79E330A83E8704C /* FXBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 409E2F86AD8B381C164969E305B6073B /* FXBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +63,10 @@
 		3F9AC9A7C23D0D09822F1B133823112E /* Pods-PopupDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PopupDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		409E2F86AD8B381C164969E305B6073B /* FXBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		4654F2AA4736E73E8FF84433706B6F5C /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		4911BB221D59B17200BDCBDA /* TZSpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZSpacerView.swift; sourceTree = "<group>"; };
+		4911BB231D59B17200BDCBDA /* TZStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackView.swift; sourceTree = "<group>"; };
+		4911BB241D59B17200BDCBDA /* TZStackViewAlignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewAlignment.swift; sourceTree = "<group>"; };
+		4911BB251D59B17200BDCBDA /* TZStackViewDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TZStackViewDistribution.swift; sourceTree = "<group>"; };
 		5B461E74005E2E7043164E5F8760F7C0 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
 		5F366F190FE8EB900A572BC38A02C5F9 /* Pods-PopupDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PopupDialog_Tests-resources.sh"; sourceTree = "<group>"; };
 		6E4822334421C58E5C3129363ABC2E1A /* Pods-PopupDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PopupDialog_Tests.modulemap"; sourceTree = "<group>"; };
@@ -245,6 +253,10 @@
 			children = (
 				409E2F86AD8B381C164969E305B6073B /* FXBlurView.h */,
 				9A07202D437CD9734CB45015E07E20F3 /* FXBlurView.m */,
+				4911BB221D59B17200BDCBDA /* TZSpacerView.swift */,
+				4911BB231D59B17200BDCBDA /* TZStackView.swift */,
+				4911BB241D59B17200BDCBDA /* TZStackViewAlignment.swift */,
+				4911BB251D59B17200BDCBDA /* TZStackViewDistribution.swift */,
 				1FAA3E319D60F4FA4CBE5CE3F2EC8808 /* InteractiveTransition.swift */,
 				BF8B6CBA02AD6FA9A43EB03C77864AE0 /* PopupDialog.swift */,
 				93A68179A5B0AB9BCF83D95675DD7C39 /* PopupDialog+Keyboard.swift */,
@@ -397,6 +409,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4911BB2A1D59B32F00BDCBDA /* TZSpacerView.swift in Sources */,
+				4911BB2B1D59B32F00BDCBDA /* TZStackView.swift in Sources */,
+				4911BB2C1D59B32F00BDCBDA /* TZStackViewAlignment.swift in Sources */,
+				4911BB2D1D59B32F00BDCBDA /* TZStackViewDistribution.swift in Sources */,
 				F12E3C36F3582408789F30DE4CB25A2B /* FXBlurView.m in Sources */,
 				8DBAE6BD48F359BF279EE8D4F93DBCCA /* InteractiveTransition.swift in Sources */,
 				8C1DED867D8110EACCB852E5412B6092 /* PopupDialog+Keyboard.swift in Sources */,
